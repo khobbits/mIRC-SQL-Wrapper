@@ -1,0 +1,36 @@
+iDM Mysql wrapper.
+
+I was asked to make a copy of the mysql accessor script I was using available for public use.
+This script provides some basic ini/hash like commands for accessing data in a mysql database.
+
+The original mysql dll contact information is found below.
+
+
+==Author==
+This mirc script was written by KHobbits in attempt to make the usage of sql queries more efficent in a specific application.
+This script is used in iDM, an IRC deathmatch bot.
+You can contact me on #KH @ irc.swiftirc.net.
+
+
+==Usage==
+This script works alongside with the original mirc dll, and the mirc script provided by ramirez.
+
+After filling in your database details and setting up a sql database for your purpose,
+you can use the alias's provided to allow easy access to the data within.
+
+The methods used within work best when you use a primary key for nagivation.
+
+There are a couple of things you will probably want to edit.  
+Replacing the default database details with your own
+Replacing 'putlog' with something more appropriate to your project
+Replacing the debug lines with something more appropriate to your project
+
+
+== Mysql DLL==
+** mIRC MySQL v1.0.1
+**
+** Author: Reko Tiira [ ramirez ]
+** E-mail: reko@tiira.net
+** Date: 18th August 2009
+** IRC: ramirez @ irc.undernet.org [ #mircscripting ]
+**      ramirez @ irc.swiftirc.net [ #msl ]
